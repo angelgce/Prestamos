@@ -44,10 +44,14 @@ public class Main {
             System.out.println("\n--------------------------------------");
             System.out.println("Por favor escriba el cliente a buscar :: ");
             Scanner sc = new Scanner(System.in);
-            String cliente = sc.nextLine();
-            System.out.println("\n> Informacion del usuario :: " + cliente);
-            Pagos pago = new Pagos();
-            pago.pagosPendientes(cliente);
+            getScann = sc.nextLine();
+            if (!getScann.equalsIgnoreCase("exit")) {
+                System.out.println("\n> Informacion del usuario :: " + getScann);
+                Pagos pago = new Pagos();
+                pago.pagosPendientes(getScann);
+            } else {
+                System.out.println("Salio exitosamente...");
+            }
             System.out.println("--------------------------------------");
 
         }

@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Prestamo {
 
     private String cliente;
@@ -8,40 +11,27 @@ public class Prestamo {
     private String csvLine;
 
     public Prestamo() {
-
     }
-
-    
 
     public String getCliente() {
         return cliente;
     }
 
-
-
     public int getId() {
         return id;
     }
-
-
 
     public String getFecha() {
         return fecha;
     }
 
-
-
     public Double getMonto() {
         return monto;
     }
 
-
-
     public String getEstado() {
         return estado;
     }
-
-
 
     public String getCsvLine() {
         return csvLine;

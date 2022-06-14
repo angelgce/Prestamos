@@ -1,8 +1,8 @@
 #/usr/bin/bash
 
-CONF=/home/Prestamos
-CP=/home/Prestamos/models
-LIB=/home/Prestamos/libraries
+CONF=/home/Examples/Java/Prestamos
+CP=/home/Examples/Java/Prestamos/models
+LIB=/home/Examples/Java/Prestamos/libraries
 
 clear
 clear 
